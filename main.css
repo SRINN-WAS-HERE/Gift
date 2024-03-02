@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(media/wallpaper-main.jpg);
+    background-size: 100px;
+    background-origin: border-box;
+    background-position-x: left;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-color: #ffc0cb;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.media-1 {
+    padding: 50px;
+    width: 300px;
+    position: fixed;
+    margin-top: -30vh;
+    margin-left: -30vh;
+}
+
+.media-2 {
+    position: fixed;
+    padding: 50px;
+    width: 300px;
+    margin-top: -1vh;
+    margin-left: 30vh;
+}
+
+.media-3 {
+    width: 300px;
+    position: fixed;
+    margin-top: 8vh;
+    margin-left: -80vh;
+    border-radius: 50%;
+}
+
+.media-4 {
+    width: 250px;
+    position: fixed;
+    margin-top: 16vh;
+    margin-left: -20vh;
+}
+
+.media-5 {
+    position: fixed;
+    width: 250px;
+    margin-top: -25vh;
+    margin-left: 15vh;
+}
+
+.media-6 {
+        position: fixed;
+        margin-top: -28vh;
+        margin-left: -60vh;
+        border: #ffc0cb;
+        border-radius: 11vh;
+        border-style: dashed;
+}
+
+.text {
+    position: fixed;
+    text-align: center;
+    margin-top: -40vh;
+    margin-left: -30vh;
+    text-shadow: 0 0 15px #ffc0cb, 0 0 20px #ffc0cb, 0 0 25px #ffc0cb 0 0 30px #ffc0cb;
+    text-transform: uppercase;
+}
+
+
+

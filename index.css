@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-image: url(media/wallpaper.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.container {
+    background: pink;
+    padding: 40px;
+    width: 200px;
+    height: 300px;
+    margin-top: 20vh;
+    text-align: center;
+    text-overflow: clip;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 15%;
+}
+
+.media-img {
+    padding: 15px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+.media-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+    text-shadow: rgb(from color r g b);
+    text-decoration: whitesmoke;
+    text-shadow: rgb(red, green, blue);
+}
+
+.input {
+    padding: 20px;
+    margin-top: 2vh;
+    border-radius: 15%;
+    border: blueviolet, black, rgb(red, green, blue);
+    border-style: solid;
+    transition: 800vh, 7000vh;
+    transition: 4s;
+}
+
+
+
+
